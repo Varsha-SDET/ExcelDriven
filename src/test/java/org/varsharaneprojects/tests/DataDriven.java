@@ -16,7 +16,7 @@ import java.util.Iterator;
  */
 public class DataDriven {
 
-    public ArrayList<String> getDataFromExcel (String testCaseName) throws IOException {
+    public ArrayList<String> getDataFromExcel (String testCaseName ) throws IOException {
         ArrayList<String> arrayList = new ArrayList<String>();
         //fileInputStream argument
         FileInputStream fileInputStream= new FileInputStream("C://Users//varsh//OneDrive//Desktop//Documents//testDemo.xlsx");
