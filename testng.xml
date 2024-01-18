@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+
+    <test thread-count="5" name="Excel data provider test">
+        <classes>
+            <class name="org.varsharaneprojects.tests.ExcelDataProviderTest"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test thread-count="5" name="Excel data Test">
+        <classes>
+            <class name="org.varsharaneprojects.tests.ExcelDataTest"/>
+        </classes>
+    </test>
+</suite>
