@@ -49,7 +49,7 @@ public class ExcelDataProviderTest {
                 XSSFCell cell = row.getCell(j);
                 //format cell value into string and store in [][]
                 data[i][j]=dataFormatter.formatCellValue(cell);
-               // System.out.println("Outer loop ended:------------");
+               // System.out.println("Outer loop ended:-------------");
 
             }
         }
